@@ -27,13 +27,13 @@ import static de.robv.android.xposed.XposedHelpers.*;
 public class JodelHooks {
 
     public static class PhotoEditFragment {
-        public static String Post = "azA";
-        public static String ImageView = "azB";
-        public static String Method = "Br";
+        public static String Post = "azn";
+        public static String ImageView = "azo";
+        public static String Method = "By";
     }
 
     public static class OkClient$2 {
-        public static String InputStream = "Es";
+        public static String InputStream = "EB";
     }
 
     public static class JodelImageHelper {
@@ -42,15 +42,15 @@ public class JodelHooks {
 
     public static class RecyclerPostsAdapter {
         public static String TrackPoster = "a";
-        public static String TrackOP = "o";
+        public static String TrackOP = "q";
     }
 
     public static class RecyclerPostsAdapter$ViewHolder {
-        public static String TimeView = "aBN";
+        public static String TimeView = "aBE";
     }
 
     public static class UDI {
-        public static String GetUID = "Aa";
+        public static String GetUID = "Ah";
     }
 
 
